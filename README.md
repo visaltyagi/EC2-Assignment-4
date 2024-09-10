@@ -11,7 +11,7 @@ You work for XYZ Corporation and the current requirement in the organization is 
 
 **a.** Make sure you have AWS Managed Active Directory with a valid domain name.
 
-**b. **Connect it to your Windows EC2 server.
+**b.** Connect it to your Windows EC2 server.
 
 **2.** Create an FSx file system for Lustre and attach it to an Amazon Linux 2 instance.
 
