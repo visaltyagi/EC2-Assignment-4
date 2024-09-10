@@ -1,0 +1,7 @@
+sudo amazon-linux-extras install -y lustre2.10
+sudo mkdir /fsx
+sudo mount -t lustre -o noatime,flock fs-0c3627376dc818c15.fsx.ap-south-1.amazonaws.com@tcp:/s5e3bbmv /fsx
+df -h
+cd /fsx
+sudo touch hello.txt
+sudo nano hello.txt
